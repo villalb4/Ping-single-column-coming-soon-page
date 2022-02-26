@@ -24,12 +24,12 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
     align-items: center;
     font-family: 'Libre Franklin';
-    padding: 88.94px;
+    padding-top: 88.94px;
     text-align: center;
 }
 
@@ -53,8 +53,7 @@ input {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.007em;
-    margin-right: 16px;
-    margin-top: 40px;
+    margin: 40px 16px 86px 0;
     padding: 18px 30px;
     border: 1px solid var(--Gray);
     border-radius: 28px;
@@ -74,3 +73,28 @@ button {
     border: 1px solid var(--Gray);
     cursor: pointer;
 }
+button:hover {
+    background-color: hsl(224, 87%, 70%);
+}
+.dashboard {
+    height: 391px;
+    width:640px
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.facebook {
+    height: 20px;
+    width: 20px;
+}
+.twitter {
+    height: 35px;
+    width: 35px;
+}
+.instagram {
+    height: 30px;
+    width: 30px;
+} 
