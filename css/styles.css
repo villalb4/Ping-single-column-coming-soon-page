@@ -45,8 +45,7 @@ strong {
     color: var(--Very-Dark-Blue);
 }
 .subscribe {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 20px;
     letter-spacing: 0.002em;
     color: var(--Very-Dark-Blue);
 }
@@ -54,14 +53,24 @@ input {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.007em;
-    padding: 19px 30px;
+    margin-right: 16px;
+    margin-top: 40px;
+    padding: 18px 30px;
     border: 1px solid var(--Gray);
     border-radius: 28px;
-    width: 361px;
+    width: 421px;
 }
 input:focus {
-    outline: 1px solid var(--Light-Red);
+    outline: 1px solid var(--Blue);
 }
 button {
-
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    color: white ;
+    background-color: var(--Blue);
+    padding: 18px 62px;
+    border-radius: 28px;
+    border: 1px solid var(--Gray);
+    cursor: pointer;
 }
