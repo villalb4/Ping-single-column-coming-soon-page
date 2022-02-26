@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    /* Primary */
+
+--Blue: hsl(223, 87%, 63%);
+
+    /* Secondary */
+
+--Pale-Blue: hsl(223, 100%, 88%);
+--Light-Red: hsl(354, 100%, 66%);
+
+    /* Neutral */
+
+--Gray: hsl(0, 0%, 59%);
+--Very-Dark-Blue: hsl(209, 33%, 12%);
+ 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Franklin';
+    padding: 88.94px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 0.004em;
+    color: var(--Gray);
+    margin: 48.68px 0 17px 0;
+}
+strong {
+    color: var(--Very-Dark-Blue);
+}
+.subscribe {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.002em;
+    color: var(--Very-Dark-Blue);
+}
+input {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.007em;
+    padding: 19px 30px;
+    border: 1px solid var(--Gray);
+    border-radius: 28px;
+    width: 361px;
+}
+input:focus {
+    outline: 1px solid var(--Light-Red);
+}
+button {
+
+}
