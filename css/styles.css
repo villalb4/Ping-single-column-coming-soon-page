@@ -86,8 +86,12 @@ button:hover {
     display: flex;
     justify-content: center;
     gap: 12px;
+    margin-bottom: 20px;
 }
 
  .facebook, .instagram , .twitter {
     width: 32px;
 } 
+footer {
+    margin-bottom: 49px;
+}
